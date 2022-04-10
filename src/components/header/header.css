@@ -28,12 +28,32 @@ header {
     margin: 1rem;
 }
 
-/* ======================= PHOTO1 ====================*/
+/* ======================= PHOTO2 ====================*/
 .me {
-    /* background: var(--color-primary); */
+    background: linear-gradient(var
+    (--color-primary), transparent);
     width: 30rem;
     height: 30rem;
     position: absolute;
     left: calc(50% - 15rem);
+    margin-top: 1.5rem;
+    border-radius: 0rem 3rem 0 3rem;
+    overflow: hidden;
+    padding: 1.rem;
+}
 
+/* ==================== MEDIA QUERIES (MED) =======================*/
+
+@media screen and (max-width: 768px) {
+    header {
+        height: 68vh;
+    }
+}
+
+/* ==================== MEDIA QUERIES (SMALL) =======================*/
+
+@media screen and (max-width: 595px) {
+    header {
+        height: 100vh;
+    }
 }
