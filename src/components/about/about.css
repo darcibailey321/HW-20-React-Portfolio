@@ -1,16 +1,61 @@
 .about__container {
     display: grid;
     grid-template-columns: 50% 50%;
-    gap: 5%
-}
-
-.about__me {
-    height: 100%;
-}
+    gap: 5%;
+    padding: 1rem;
+    }
 
 p {
-    padding: 3rem 0 3rem 0;
+    padding: 1.5rem 1rem 2rem 0;
 }
+
 h5 {
-    padding-top: 5rem;
+    padding-top: 1rem;
+}
+
+.about__card {
+    background: var(--color-bg-variant);
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    padding: 1rem;
+    text-align: center;
+    color: var(--color-bg);
+}
+
+.about__icon {
+    font-size: 4rem;
+}
+
+/* ==================== MEDIA QUERIES (MED) =======================*/
+
+@media screen and (max-width: 768px) {
+    .about__container {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .about_me {
+        width: 50%;
+        margin: 2rem auto 4rem;
+    }
+    .about__content p {
+        margin: 1rem 0 1.5rem;
+    }
+}
+
+/* ==================== MEDIA QUERIES (SMALL) =======================*/
+
+@media screen and (max-width: 595px) {
+    .about_me {
+        width: 65%;
+        margin: 0 auto 3rem
+    }
+
+    .about__content {
+        text-align: center;
+    }
+
+    .about__content p {
+        margin: 1.5rem 0;
+    }
 }

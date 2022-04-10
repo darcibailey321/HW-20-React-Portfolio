@@ -38,7 +38,6 @@ body {
   background:var(--color-bg);
   color: var(--color-primary);
   line-height: 1.25;
-  /* background-image: url(../src/assets/white-wood-backgroud.jpg); */
 }
 
 /* ================GENERAL STYLES ==========================*/
@@ -75,6 +74,7 @@ section > h5 {
     text-align: center;
     color: var(--color-light);
 }
+
 section > h2 {
     color: var(--color-primary);
     margin-bottom: 3rem;
@@ -132,18 +132,6 @@ img {
         margin-top: 6rem;
     }
 }
-
-/* ==================== MEDIA QUERIES (LARGE) =======================*/
-
-/* @media screen and (max-width: 1024px) {
-    .container {
-        width: var(--container-width-lg);
-    }
-
-    section {
-        margin-top: 8rem;
-    }
-} */
 
 /* ==================== MEDIA QUERIES (SMALL) =======================*/
 
