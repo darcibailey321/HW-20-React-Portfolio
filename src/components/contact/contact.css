@@ -1,0 +1,38 @@
+.container.contact__container {
+    width: 50%;
+    display: center;
+    grid-template-columns: 30% 50%;
+    gap: 12%;
+}
+
+.contact__options {
+    display: inline;
+    flex-direction: row;
+    gap: 1.2rem;
+}
+
+.contact__option {
+    background: var(--color-bg-variant);
+    color: var(--color-bg);
+    padding: 1.2rem;
+    border-radius: 1.2rem;
+    text-align: center;
+    transition: var(--transition);
+}
+
+/* ==================== MEDIA QUERIES (MED) =======================*/
+
+@media screen and (max-width: 768px) {
+    .contact.contact__container {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+}
+
+/* ==================== MEDIA QUERIES (SMALL) =======================*/
+
+@media screen and (max-width: 595px) {
+    .contact.contact__container {
+        width: var(--container-width-sm)
+    }
+}
