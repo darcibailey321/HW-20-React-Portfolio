@@ -91,7 +91,7 @@ a {
 }
 
 a:hover {
-    color: var(--color-bg);
+    color: var(--color-bg-variantheroku --versionheroku --version);
 }
 
 .btn {
