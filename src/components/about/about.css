@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 50% 50%;
     gap: 5%;
-    padding: 3rem;
+    padding: 1rem;
 }
 
 p {
@@ -29,7 +29,7 @@ h5 {
 
 /* ==================== MEDIA QUERIES (MED) =======================*/
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     .about__container {
         grid-template-columns: 1fr;
         gap: 0;

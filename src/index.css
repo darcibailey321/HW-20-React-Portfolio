@@ -91,8 +91,9 @@ a {
 }
 
 a:hover {
-    color: var(--color-bg-variantheroku --versionheroku --version);
+    color: var(--color-bg-variant);
 }
+
 
 .btn {
     width: max-content;

@@ -3,26 +3,57 @@
     display: center;
     grid-template-columns: 30% 50%;
     gap: 12%;
-}
+    padding: 0 0 15rem 0
+
+} 
 
 .contact__options {
     display: inline;
     flex-direction: row;
     gap: 1.2rem;
+
 }
 
 .contact__option {
-    background: var(--color-bg-variant);
-    color: var(--color-bg);
+    color: var(--color-white);
     padding: 1.2rem;
     border-radius: 1.2rem;
     text-align: center;
     transition: var(--transition);
 }
+.contact_option:hover {
+    background: transparent;
+    border-color: var(--color-primary-variant);
+}
+
+/* .contact__option a{
+    margin-top: .7rem;
+} */
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background: transparent;
+    border: 2px solid var(--color-white);
+    resize: none;
+    color: var(--color-white);
+
+}
+
+button {
+ display: center;
+}
 
 /* ==================== MEDIA QUERIES (MED) =======================*/
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     .contact.contact__container {
         grid-template-columns: 1fr;
         gap: 2rem;
